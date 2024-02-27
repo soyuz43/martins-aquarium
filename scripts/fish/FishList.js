@@ -1,7 +1,7 @@
 // Import the function that returns a copy of the fish array
 import { getFish } from "./database.js"
 
-// * Exports End
+
 
 
 
@@ -10,7 +10,7 @@ export const FishList = () => {
     const fishes = getFish()
 
     // Start concatenating
-    let htmlString = '<article class="fishList">'
+    let htmlString = ''
 
     // Create HTNL representations of each fish here
     for (const fish of fishes) {
