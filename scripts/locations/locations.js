@@ -12,10 +12,10 @@ export function renderHarvestingLocations() {
     for (const location of locations) {
         // Append a section for each location using template literals
         htmlString += `<article class="harvestingLocation">
-            <h2>${location.name} (${location.country})</h2>
+            <pre><h2>${location.name}</h2><p>(${location.country})</p>
             <p>Type: ${location.type}</p>
             <p>Best Season: ${location.bestSeason}</p>
-        </article>`;
+        </article></pre>`;
     }
 
     

@@ -13,8 +13,9 @@ export function renderCareTips() {
     // Loop through each care tip in the array
     for (const tip of tips) {
         // Append a section for each care tip using template literals
-        htmlString += `<section class="careTip">
-        <li>${tip.text}</li>
+        htmlString += `<pre><section class="careTip"></prev>
+        
+        <div>${tip.text}</div>
     </section>`;
 
     }

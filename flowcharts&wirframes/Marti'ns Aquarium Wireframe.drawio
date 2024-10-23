@@ -1,0 +1,46 @@
+<mxfile host="Electron" modified="2024-02-28T06:47:03.979Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/23.1.5 Chrome/120.0.6099.109 Electron/28.1.0 Safari/537.36" etag="PZgRlfy-HwiMkDta4oO2" version="23.1.5" type="device">
+  <diagram name="Page-1" id="qq2BPRzusUn6hpKsrQpT">
+    <mxGraphModel dx="1100" dy="2090" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="jaBv1oMFalYYa27kFiRx-3" value="" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry width="850" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="jaBv1oMFalYYa27kFiRx-4" value="" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry y="160" width="850" height="180" as="geometry" />
+        </mxCell>
+        <mxCell id="jaBv1oMFalYYa27kFiRx-6" value="&lt;h1 style=&quot;color: rgb(255, 255, 255); font-family: &amp;quot;Times New Roman&amp;quot;;&quot;&gt;Welcome to Our Fish Page&lt;/h1&gt;&lt;p&gt;&lt;br&gt;&lt;/p&gt;" style="text;html=1;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" parent="1" vertex="1">
+          <mxGeometry width="850" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="jaBv1oMFalYYa27kFiRx-8" value="&lt;h1&gt;Heading&lt;/h1&gt;&lt;p&gt;1. Something&lt;/p&gt;&lt;p&gt;2. Something else&lt;/p&gt;&lt;p&gt;3. Yet again&lt;/p&gt;&lt;p&gt;4. BeepBoop&amp;nbsp;&lt;/p&gt;" style="text;html=1;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" parent="1" vertex="1">
+          <mxGeometry y="160" width="190" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="jaBv1oMFalYYa27kFiRx-9" value="" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry y="400" width="850" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="jaBv1oMFalYYa27kFiRx-10" value="&lt;h1&gt;Quote from fish boy&lt;/h1&gt;" style="text;html=1;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;direction=west;" parent="1" vertex="1">
+          <mxGeometry y="400" width="850" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="jaBv1oMFalYYa27kFiRx-11" value="" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry y="560" width="850" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="jaBv1oMFalYYa27kFiRx-12" value="&lt;h1&gt;Here&#39;s how to kill &#39;em&lt;/h1&gt;" style="text;html=1;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" parent="1" vertex="1">
+          <mxGeometry y="560" width="660" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="jaBv1oMFalYYa27kFiRx-14" value="They are fish, what you can&#39;t outsmart a fish?" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry y="605" width="280" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="jaBv1oMFalYYa27kFiRx-16" value="" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry y="760" width="850" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="jaBv1oMFalYYa27kFiRx-17" value="&lt;h1&gt;Here&#39;s how not to kill &#39;em&lt;/h1&gt;&lt;div&gt;See we have this idea, we just keep them in the same place for thier entire lives, I wonder if they go insane. Can fish go insane?&lt;/div&gt;" style="text;html=1;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" parent="1" vertex="1">
+          <mxGeometry y="765" width="850" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="jaBv1oMFalYYa27kFiRx-18" value="&quot;I was once a mere man like you, untill i got bitten by a radioactive fish&quot; - Captain Ahab" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+          <mxGeometry y="430" width="420" height="40" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
