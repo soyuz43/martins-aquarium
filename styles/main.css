@@ -1,0 +1,100 @@
+/* Body styles */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f2f2f2;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+/* Header styles */
+header {
+    background-color: #4CAF50;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+/* Main styles */
+main {
+    padding: 20px;
+}
+
+/* Section styles */
+section {
+    margin-bottom: 20px;
+  
+}
+
+/* Article styles */
+article {
+    padding: 10px;
+    border: 1px solid #ccc;
+    background-color: #fff;
+    display: flex;
+    flex-wrap: wrap; 
+    margin-left: 15px;
+}
+div {
+    margin-left: 15px;
+    text-decoration: double;
+    font-size: large;
+}
+/* Footer styles */
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+}
+/* Header 1 styles */
+h1 {
+    font-size: 2em;
+}
+
+/* Header 2 styles */
+h2 {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+}
+
+/* Blockquote styles */
+blockquote {
+    font-style: italic;
+    margin-bottom: 10px;
+}
+
+/* List styles */
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+/* List item styles */
+li {
+    margin-bottom: 5px;
+}
+
+/* Script container styles */
+.harvestingLocationsContainer {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+/* Script container item styles */
+.harvestingLocationsContainer > div {
+    flex: 1 1 50%; /* Two items per row */
+    padding: 5px;
+    justify-content: left;
+}
+
+/*Script container styles caretips*/
+.tips {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.caretip {
+    justify-content: right;
+
+}

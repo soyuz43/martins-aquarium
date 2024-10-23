@@ -4,57 +4,7 @@
  *  representation as an object. Then add all the other
  *  fish to the collection.
  */
-// ! const database = {
-// !     fish: []
-// ! };
-// ! 
-// ! const prefixes = ["Bozo","Dumbo","Alpha", "Beta","What the f*ck is that", "Gamma", "Delta", "Echo", "Foxtrot","Goober", "Guppy", "Zulu", "Neon", "Omega", "Quasar", "Rainbow", "Sapphire", "Tastes like chicken", "Tropical", "Vivid", "Wave", "Xenon", "Yummy", "Zen", "Zenith"];
-// ! const suffixes = ["Fish", "Fins", "Swimmer", "Diver", "Goby", "Snapper", "Shrimp", "Blenny", "Anemone", "Tetra", "Guppy", "Catfish", "Tang", "Puffer", "Swordtail", "Tuna", "Molly", "Barb", "Angelfish", "Cichlid"];
-// ! 
-// ! const usedPrefixes = {};
-// ! 
-// ! function generateMoreFish(numberOfFish) {
-// !     const foods = ["crustaceans", "plankton", "algae", "small fish", "seeds", "worms", "insects", "fish flakes"];
-// !     const locations = ["Tropical waters", "Freshwater streams", "Coral reefs", "Rivers", "Amazon River", "Ponds"];
-// !     const lengths = [10, 20, 30]; // Adjust these values as needed
-// !     
-// !     for (let i = 0; i < numberOfFish; i++) {
-// !         const randomFoodIndex = Math.floor(Math.random() * foods.length);
-// !         const randomSuffixIndex = Math.floor(Math.random() * suffixes.length);
-// !         const suffix = suffixes[randomSuffixIndex];
-// !         const prefix = getRandomUniquePrefix(suffix);
-// !         const randomSize = Math.floor(Math.random() * 10) + 1;
-// !         const randomLengthIndex = Math.floor(Math.random() * lengths.length);
-// !         const randomLocationIndex = Math.floor(Math.random() * locations.length);
-// ! 
-// !         database.fish.push({
-// !             name: `${prefix} ${suffix}`,
-// !             species: suffix,
-// !             food: foods[randomFoodIndex],
-// !             size: randomSize,
-// !             length: lengths[randomLengthIndex], // Use integer value for length
-// !             location: locations[randomLocationIndex]
-// !         });
-// !     }
-// ! }
-// ! 
-// ! function getRandomUniquePrefix(suffix) {
-// !     if (!usedPrefixes[suffix]) {
-// !         usedPrefixes[suffix] = [];
-// !     }
-// !     let prefix;
-// !     do {
-// !         prefix = prefixes[Math.floor(Math.random() * prefixes.length)];
-// !     } while (usedPrefixes[suffix].includes(prefix));
-// !     usedPrefixes[suffix].push(prefix);
-// !     return prefix;
-// ! }
-// ! 
-// ! // Generate 20 fish objects
-// ! generateMoreFish(150);
-// ! 
-// ! // Output the fish data
-// ! console.log(database.fish);
+
 
 const database = {
     fish: [
@@ -120,18 +70,101 @@ const database = {
         }
     ]
 };
+export const getFish = () => {
+    return database.fish.map(fish => ({...fish}))
+}
+
+// ! FISHCARE
 
 
-export const careTips = [
-    "Maintain a constant PH level",
-    "Maintain a consistent water temperature",
-    "Perform regular water changes to remove toxins",
-    "Ensure adequate filtration to keep the water clean",
-    "Provide a balanced diet suitable for the specific fish species",
-    "Create a habitat with enough space and hiding places"
-];
+const fishCareTips = {
+    tip: [
+        {
+            id: 1,
+            text: "Maintain a constant PH level"
+        },
+        {
+            id: 2,
+            text: "Maintain a consistent water temperature"
+        },
+        {
+            id: 3,
+            text: "Perform regular water changes to remove toxins"
+        },
+        {
+            id: 4,
+            text: "Ensure adequate filtration to keep the water clean"
+        },
+        {
+            id: 5,
+            text: "Provide a balanced diet suitable for the specific fish species"
+        },
+        {
+            id: 6,
+            text: "Create a habitat with enough space and hiding places"
+        }
+    ]
+};
+export const getTips = () =>{
+
+    return fishCareTips.tip.map(tip =>({...tip}))
+
+}
+
+// ! FISHMURDER
 
 
+const fishHarvestingLocations = {
+    locations: [
+        {
+            id: 1,
+            name: "Great Barrier Reef",
+            country: "Australia",
+            type: "Coral Reef",
+            bestSeason: "April to November"
+        },
+        {
+            id: 2,
+            name: "Bering Sea",
+            country: "USA/Russia",
+            type: "Sea",
+            bestSeason: "June to September"
+        },
+        {
+            id: 3,
+            name: "Amazon River",
+            country: "Brazil",
+            type: "River",
+            bestSeason: "September to November"
+        },
+        {
+            id: 4,
+            name: "Gulf of Alaska",
+            country: "USA",
+            type: "Gulf",
+            bestSeason: "May to September"
+        },
+        {
+            id: 5,
+            name: "Lake Victoria",
+            country: "Tanzania/Uganda/Kenya",
+            type: "Freshwater Lake",
+            bestSeason: "All year round"
+        },
+        {
+            id: 6,
+            name: "Norwegian Sea",
+            country: "Norway",
+            type: "Sea",
+            bestSeason: "April to October"
+        }
+    ]
+};
+export const getLocations = () =>{
+
+    return fishHarvestingLocations.locations.map(locations =>({...locations}))
+
+}
 
 
 
@@ -142,17 +175,5 @@ export const careTips = [
 
 
 
-// ! -------------
-// * END DATABASE OBJECT
 
-
-
-
-// ! -------------
-// * BEGIN EXPORTS
-
-
-export const getFish = () => {
-    return database.fish.map(fish => ({...fish}))
-}
 
